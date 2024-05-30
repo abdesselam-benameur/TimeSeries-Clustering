@@ -30,9 +30,9 @@ Make sure you have the following Python packages installed:
 
 You can install these packages using `pip`:
 
-`bash
+```bash
 pip install numpy pandas matplotlib seaborn scipy scikit-learn tslearn kmedoids
-`
+```
 
 ### Data
 
