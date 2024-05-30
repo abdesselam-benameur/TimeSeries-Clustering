@@ -30,9 +30,9 @@ Make sure you have the following Python packages installed:
 
 You can install these packages using `pip`:
 
-\`\`\`bash
+`bash
 pip install numpy pandas matplotlib seaborn scipy scikit-learn tslearn kmedoids
-\`\`\`
+`
 
 ### Data
 
@@ -64,7 +64,7 @@ The `ProjetUL.ipynb` notebook demonstrates the use of the utility functions on a
 
 #### Example Code
 
-\`\`\`python
+```python
 # Import utility functions
 from utils import *
 
@@ -85,7 +85,7 @@ inertias, silhouettes, labels = run_clustering_method(clust_method, X, metric="e
 plot_inertia(inertias, title="Elbow method for KMeans with Euclidean distance")
 plot_silhouette(silhouettes, title="Silhouette score for KMeans with Euclidean distance")
 visualize_clusters(X, labels, title="Visualizing KMeans clusters with Euclidean distance")
-\`\`\`
+```
 
 ## Conclusion
 
